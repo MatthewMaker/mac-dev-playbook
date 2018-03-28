@@ -1,0 +1,413 @@
+homebrew_installed_packages:
+  - go
+  - ffmpeg
+  - ansible-lint
+  - gdbm
+  - mplayer
+  - scons
+  - mysql
+  - uncrustify
+  - yasm
+  - unrar
+  - tree
+  - sift
+  - aha
+  - gs
+  - osxutils
+  - mp4v2
+  - pngcrush
+  - imagemagick
+  - jpegoptim
+  - faad2
+  - sox
+  - automake
+  - mplayershell
+  - awscli
+  - aws-shell
+  - lastpass-cli
+  - swiftformat
+  - pstoedit
+  - gitversion
+  - git-crypt
+  - git-flow
+  - ripgrep
+  - multitail
+  - curl
+  - diff-so-fancy
+    #default  - wget
+    #default  - node
+    #default  - nvm
+    #default  - autoconf
+    #default  - doxygen
+    #default  - ssh-copy-id
+    #default  - httpie
+    #default  - nmap
+  - multimarkdown
+  - resty
+  - mosh
+  - tmux
+  - gs
+    #  - autotrace
+  - fping
+  - mackup
+  - apib
+  - apibuilder-cli
+  - osquery
+  - vdirsyncer
+  - fcrackzip
+  - s-search
+  - sysbench
+  - putty
+  - ruby
+  - freeciv
+  - geoip
+  - hh
+  - tig
+  - the_silver_searcher
+  - the_platinum_searcher
+  - theora
+  - lolcat
+  - figlet
+  - zork
+  - zzz
+  - movgrab
+  - highlight
+  - megacmd
+  - megatools
+  - dockutil
+  - mmark
+  - mboxgrep
+  - wgetpaste
+  - frotz
+    # req: java  - swagger-codegen
+  - testdisk
+  - ddrescue
+  - jpegrescan
+  - jpeg-archive
+  - svg2pdf
+  - svg2png
+  - svgcleaner
+  - catimg
+  - webkit2png
+  - recoverjpeg  
+  - flickcurl
+  - imagesnap
+  - json-table  
+  - jsonlint
+  - sbjson
+  - jsawk  
+  - jq
+  - generate-json-schema
+  - smartmontools
+    #req: osxfuse  - gcsfuse
+  - enscript
+  - docx2txt
+  - stunnel
+  - smartypants
+  - kotlin
+  - howdoi
+  - emacs
+  - ecasound
+  - aescrypt
+  - opencbm
+  - trash
+  - rmtrash
+  - vorbis-tools
+  - unison
+  - ntopng
+  - mutt
+  - muttils
+  - aspell
+  - assh
+  - z
+  - reattach-to-user-namespace
+  - shairport
+  - rename
+  - renameutils
+  - homeshick
+  - brightness
+  - dhcping
+  - dhcpdump
+  - mvtools
+  - mydumper
+  - screenresolution
+    #req java   - redpen
+  - pwgen
+  - cless
+  - vimpager
+  - fuzzy-find
+  - cliclick
+  - prettyping
+  - privoxy
+  - mussh
+  - r
+  - switchaudio-osx
+  - swiftformat
+  - titlecase
+  - slackcat
+  - sgrep
+  - shpotify
+  - tidy-html5
+  - chromedriver
+  - tcping
+  - tcpdump
+  - tcptrace
+  - tcpflow
+  - tcpreplay
+  - tcpstat
+  - tcptrack
+  - tcptraceroute
+  - bettercap
+  - trafshow
+  - foremost
+  - aircrack-ng
+  - hh
+  - calc
+  - htop
+  - links
+  - lynx
+  - ncdu
+  - lftp
+  - irssi
+  - ccrypt
+  - gpg
+  - speedtest_cli
+  - rlwrap
+  - colordiff
+  - watch
+  - vnstat
+  - hub
+  - graphicsmagick
+  - bash
+  - bash-snippets
+  - bash-git-prompt
+
+homebrew_cask_apps:
+    # default   - macvim
+  - alfred
+  - airtable
+  - datagrip
+  - eloston-chromium
+    #redundant w/above  - freesmug-chromium
+    #redundant w/above  - chromium
+  - istat-menus
+  - lastpass
+  - cleanmymac
+  - folx
+  - lacona
+  - elmedia-player
+    #hash error  - hazeover
+  - iterm2
+  - signal
+  - choosy
+  - vimr
+  - sourcetree
+  - google-backup-and-sync
+  - spectacle
+  - the-unarchiver
+  - markdown-service-tools
+  - omnigraffle
+  - sonic-visualiser
+  - oclint
+  - toggl
+  - synergy
+  - totalfinder
+  - kindle
+  - java
+  - flux
+  - fluid
+  - macbreakz
+  - unity
+  - unity-monodevelop
+  - unity-ios-support-for-editor
+  - unity-android-support-for-editor
+  - unity-webgl-support-for-editor
+  - unity-windows-support-for-editor
+  - sleepyhead
+  - caffeine
+  - thebrain
+  - evernote
+  - disk-inventory-x
+  - kext-utility
+  - kextviewr
+  - libreoffice
+  - pacifist
+  - little-snitch
+  - jing
+  - dropbox
+  - dropbox-encore
+  - charles
+  - audacity
+    #Automatically tracks everything you do in each app
+  - timing
+  - audacity-lame-library
+  - cloudlibrary
+  - synalyze-it-pro
+  - spotify
+  - pandora
+  - vitamin-r
+  - avidemux
+  - blender
+  - wings3d
+  - java
+  - gephi
+  - mpv
+  - ffmpegx
+  - vlc
+  - xee
+  - libav
+  - libaacs
+  - rubberband
+  - daisydisk
+  - recovery-disk-assistant
+  - diffmerge
+  - p4merge
+  - screenflow
+  - fantastical
+  - mactex
+  - scapple
+  - karabiner
+  - scrivener
+  - xmind
+  - xquartz
+  - meld
+  - aptanastudio
+    #https://github.com/aptana/studio3/releases/download/v3.6.1/Aptana_Studio_3.6.1_Setup.dmg
+  - thunderbird
+  - vivaldi
+  - palemoon
+  - virtualbox
+  - skyfonts
+  - shiori
+  - marked
+  - airtool
+  - rescuetime
+  - intellij-idea
+  - phonerescue
+  - data-rescue
+  - changes
+  - GrandPerspective
+  - cheetah3d
+  - gimp
+  - google-hangouts
+  - wineskin-winery
+  - filezilla
+  - parallels-desktop
+  - parallels-access
+  - virtualc64
+  - utorrent
+  - displaylink
+  - devonthink-pro-office
+  - kodi
+  - amazon-music
+  - rapidminer-studio
+  - atom
+  - wireshark
+    #  - wireshark-chmodbpf
+  - mediainfo
+  - marshallofsound-google-play-music-player
+  - music-manager
+  - musictube
+  - freeter
+  - microsoft-azure-storage-explorer
+  - microsoft-r-open
+  - forklift
+  - osxfuse
+  - logicsniffer
+  - mosaic
+  - etrecheck
+  - hockey
+  - inssider
+  - quicklook-json
+  - visualjson
+  - quickgeojson
+  - dupeGuru
+    #bad hash  - unrarx
+  - unetbootin
+  - steam
+  - omnidb  
+  - meld
+  - handy-outliner
+  - omnifocus
+  - omnioutliner
+  - omnipresence
+  - omniplan
+  - omniweb  
+  - omnidisksweeper
+  - simplifyextras
+  - sdformatter
+  - macx-video-converter-pro
+  - smartconverter
+  - aimersoft-video-converter-ultimate
+  - insomnia
+  - graphicconverter
+  - keyboard-maestro
+  - airdisplay
+  - displaycal
+  - nativedisplaybrightness
+#  - idisplay
+
+    #  - insomniax
+    #  - soundflower 
+    #  - beardedspice
+
+mas_installed_apps:
+  - { id: 497799835, name: "Xcode" }
+  - { id: 410628904, name: "Wunderlist: To-Do List & Tasks" }
+  - { id: 525912054, name: " WiFi Signal" }
+    #  - { id: 1278508951, name: "Trello" }
+  - { id: 408981434, name: "iMovie" }
+  - { id: 926036361, name: "LastPass Password Manager" }
+  - { id: 576338668, name: "Leaf - RSS News Reader" }
+  - { id: 1090760166, name: "More Info" }
+  - { id: 421131143, name: "MPlayerX" }
+  - { id: 1037126344, name: "Apple Configurator 2" }
+  - { id: 668208984, name: "GIPHY Capture. The GIF Maker" }
+  - { id: 409203825, name: "Numbers" }
+  - { id: 409201541, name: "Pages" }
+  - { id: 897118787, name: "Shazam" }
+  - { id: 448003584, name: "Simplify: control your favourite music players" }
+    #411649452 RDM+ Desktop Lite (3.6)
+    #402375865 Constitution (1.1)
+    #633859558 Texas Constitution and Statutes Codes (TX Code) (2016.0217)
+    #411213048 LadioCast (0.12.4)
+    #829598718 Grace (3.9.0)
+#578078659 ScreenSharingMenulet (2.8)
+#549083868 Display Menu (2.2.3)
+#692867256 Simplenote (1.3.2)
+#425264550 Blackmagic Disk Speed Test (3.1)
+
+
+    #453114608 JSON Helper for AppleScript (1.07)
+    #1189824719 Jayson - Visual JSON Editor (1.8.1)
+    #508368068 Get Plain Text (2.0)
+    #457622435 Yoink - Improved Drag and Drop (3.4.2)
+    #995512723 Json Yaml Converter (1.1.1)
+    #944637952 PLIST-2-JSON (1.0)
+    #1165459773 JSON2Entity (1.0)
+    #1330801220 Paste JSON as Code • quicktype (8.2.22)
+    #1098183909 name: "Jet Format Transfer (converter JSON XML YAML CSV INI PLIST etc)"
+    #1035966756 Json2Native (1.0)
+    #833982915 Blinged JSON Validator (1.0.1)
+    #http://itunes.apple.com/us/app/json-accelerator/id511324989?ls=1&mt=12
+    # mas search JSON
+    #
+    #1039355034 VIDEO Oops - Fragment Removal PRO (2.2.0)
+    #514840980 Total Video Converter (3.9.6)
+    #  - { id: 514951692, name:  "NetSpot: WiFi survey & wireless scanner" }
+    #1099573200 ApiGenerator Free (1.2.1)
+
+    #  - { id: 1345892958, name: "Dr. Wifi: speed & signal test" }
+    #  - { id: 494803304, name: "WiFi Explorer" }
+
+    #gem_packages:
+    #  - name: bundler
+    #state: latest
+
+npm_packages:
+  - name: webpack
+  - name: yarn
+  - name: nativefier
+
+pip_packages:
+  - name: mkdocs
