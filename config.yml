@@ -345,6 +345,10 @@ homebrew_cask_apps:
   - airdisplay
   - displaycal
   - nativedisplaybrightness
+  - geekbench
+  - cinebench
+  - xbench
+ 
 #  - idisplay
 
     #  - insomniax
