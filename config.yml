@@ -35,20 +35,11 @@ homebrew_installed_packages:
   - curl
   - diff-so-fancy
   - tiger-vnc
-    #default  - wget
-    #default  - node
-    #default  - nvm
-    #default  - autoconf
-    #default  - doxygen
-    #default  - ssh-copy-id
-    #default  - httpie
-    #default  - nmap
   - multimarkdown
   - resty
   - mosh
   - tmux
   - gs
-    #  - autotrace
   - fping
   - mackup
   - apib
@@ -71,7 +62,6 @@ homebrew_installed_packages:
   - figlet
   - zork
   - zzz
-  - movgrab
   - highlight
   - megacmd
   - megatools
@@ -80,7 +70,6 @@ homebrew_installed_packages:
   - mboxgrep
   - wgetpaste
   - frotz
-    # req: java  - swagger-codegen
   - testdisk
   - ddrescue
   - jpegrescan
@@ -100,13 +89,13 @@ homebrew_installed_packages:
   - jq
   - generate-json-schema
   - smartmontools
-    #req: osxfuse  - gcsfuse
   - enscript
   - docx2txt
   - stunnel
   - smartypants
   - kotlin
   - howdoi
+  - neal # (Not Exactly A Linter) is a language-independent code analysis tool that aims to enable more people to write quality enforcement rules.
   - emacs
   - ecasound
   - aescrypt
@@ -132,7 +121,6 @@ homebrew_installed_packages:
   - mvtools
   - mydumper
   - screenresolution
-    #req java   - redpen
   - pwgen
   - cless
   - vimpager
@@ -161,7 +149,6 @@ homebrew_installed_packages:
   - bettercap
   - trafshow
   - foremost
-  - aircrack-ng
   - hh
   - calc
   - htop
@@ -186,9 +173,16 @@ homebrew_installed_packages:
   - mtr
   - autossh
   - autorest # Swagger (OpenAPI) Specification code generator
+  - proctools # pgrep, pkill, and pfind for OpenBSD and Darwin (macOS)
+  - aircrack-ng # Next-generation aircrack with lots of new features
+  - movgrab # Downloader for youtube, dailymotion, and other video websites
+  - webtorrent-cli # Command-line streaming torrent client
+    #req java   - redpen
+    #req: osxfuse  - gcsfuse
+    # req: java  - swagger-codegen
 
+#TODO put these in order of how essential I consider them
 homebrew_cask_apps:
-    # default   - macvim
   - alfred
   - airtable
   - datagrip
@@ -201,7 +195,6 @@ homebrew_cask_apps:
   - folx
   - lacona
   - elmedia-player
-    #hash error  - hazeover
   - iterm2
   - signal
   - choosy
@@ -243,8 +236,7 @@ homebrew_cask_apps:
   - dropbox-encore
   - charles
   - audacity
-    #Automatically tracks everything you do in each app
-  - timing
+  - timing # Automatically tracks everything you do in each app
   - audacity-lame-library
   - cloudlibrary
   - synalyze-it-pro
@@ -276,8 +268,8 @@ homebrew_cask_apps:
   - xmind
   - xquartz
   - meld
-  - aptanastudio
-    #https://github.com/aptana/studio3/releases/download/v3.6.1/Aptana_Studio_3.6.1_Setup.dmg
+  - aptanastudio # error in formula, should be https://github.com/aptana/studio3/releases/download/v3.6.1/Aptana_Studio_3.6.1_Setup.dmg
+# https://github.com/caskroom/homebrew-cask/pull/36986
   - thunderbird
   - vivaldi
   - palemoon
@@ -308,7 +300,6 @@ homebrew_cask_apps:
   - rapidminer-studio
   - atom
   - wireshark
-    #  - wireshark-chmodbpf
   - mediainfo
   - marshallofsound-google-play-music-player
   - music-manager
@@ -327,7 +318,6 @@ homebrew_cask_apps:
   - visualjson
   - quickgeojson
   - dupeGuru
-    #bad hash  - unrarx
   - unetbootin
   - steam
   - omnidb  
@@ -353,7 +343,6 @@ homebrew_cask_apps:
   - geekbench
   - cinebench
   - xbench
-    #error   - mocha-keyboard
   - bartender
   - duet
   - hammerspoon
@@ -365,11 +354,9 @@ homebrew_cask_apps:
   - fork
   - mplayer-osx-extended
   - mplayerx
-    #dl error  - wondershare-video-converter-ultimate
   - 4k-video-downloader
   - openshot-video-editor
   - flixster-video
-    #dl error  - videomonkey
   - videospec
   - pixelconduit
   - background-music
@@ -389,8 +376,6 @@ homebrew_cask_apps:
   - pixel-check # PiXel Check is an application that assists you in visually inspecting your LCD for bad or "dead" pixels.
   - pixelpeeper # allows you to watch a pixel on your screen and execute an AppleScript when it sees that pixel change.
   - finderminder # allows you to specify where (position) and what size you want newly opened Finder windows to appear.
-    #hash error - gitfinder # (trial) View local and remote branches, tags and submodules, execute various git operations ... from a feature-rich repository browser window.
-    #hash error  - neofinder # The Holy Grail of Media Asset Management
   - path-finder # Manage your files like a PRO
   - shortcut # (trial) a keyboard tool for Mac OS X that lets you "click" buttons and control your apps with a few keystrokes.
   - shortcuts # Restart/Sleep/Logout/Shutdown shortcuts in Spotlight
@@ -401,12 +386,19 @@ homebrew_cask_apps:
   - sketchup # friendly and forgiving 3D modeling software
   - sketchupviewer
   - pd
-# trying out:
+    #hash error - gitfinder # (trial) View local and remote branches, tags and submodules, execute various git operations ... from a feature-rich repository browser window.
+    #hash error  - neofinder # The Holy Grail of Media Asset Management
+    #bad hash  - unrarx
+    #error   - mocha-keyboard
+    #dl error  - wondershare-video-converter-ultimate
+    #dl error  - videomonkey
+    #hash error  - hazeover
   - wireframe-sketcher # Wireframing Tool for Professionals
   - iffmpeg # A Comprehensive Media Tool for macOS, High Quality Video Encoding
   - ttscoff-mmd-quicklook # Improved QuickLook generator for MultiMarkdown files
   - lyn
   - ios-console
+  - android-studio
   - izip
   - etcher
   - graphsketcher # A fast, simple graph drawing and data plotting app for OS X and iPad.
@@ -414,11 +406,9 @@ homebrew_cask_apps:
   - zipeg # free application for opening ZIP and RAR files on Mac and Windows.
   - zoom # a player for Z-Code, TADS and HUGO stories or games. These are usually text adventures
   - wireover # a desktop application that leverages peer-to-peer technology for sending files privately.
-# clion # A cross-platform IDE for C and C++
   - zerotier # simplify your network with a virtual networking layer that works the same everywhere.
   - zotero # a free, easy-to-use tool to help you collect, organize, cite, and share research.
   - zoo # (30d trial) SSH Client and Terminal Emulator for macOS and Windows
-    #error  - vimediamanager
   - universal-media-server # a media server capable of serving videos, audio and images to any DLNA-capable device.
   - overdrive-media-console # https://www.overdrive.com/ ?
   - x2go # X2Go enables you to access a graphical desktop of a computer over a low bandwidth (or high bandwidth) connection.
@@ -433,7 +423,6 @@ homebrew_cask_apps:
   - insomniax
   - beardedspice
   - soundflower
-#  - idisplay
   - imageplay # a rapid prototyping tool for building and testing image processing algorithms
   - 5kplayer
   - autobeat-player # All your music in one place
@@ -441,6 +430,20 @@ homebrew_cask_apps:
   - plex-media-player # makes it possible to enjoy all of your media, whether in your living room, the car, or on a boat in the South Pacific!
   - playmemories-home # Freeware which enables photos and videos to be easily managed and edited on Mac.
   - autocode # Hackable, spec-driven code generator.
+  - macdown # an open source Markdown editor for macOS
+  - fastscripts
+  - script-debugger
+  - scriptql # AppleScript Quick Look plugin
+  - db-browser-for-sqlite # a high quality, visual, open source tool to create, design, and edit database files compatible with SQLite.
+  - sqlitestudio # a portable SQLite database manager
+  - supaview # a tool to help you locate big folders and big files on your hard disk
+  - jtool # otool with additional Mach-O commands for examining Objective-C apps
+  - dashcam-viewer # viewing movies, GPS data, and shock-sensor data recorded by your dashcam or action cam
+  - xnviewmp # photo viewer, image resizer, batch image converter and more
+  - get-iplayer-automator # allow iTunes and your Mac to become the hub for your British Television experience regardless of where in the world you are
+    #error  - vimediamanager
+# clion # A cross-platform IDE for C and C++
+#  - idisplay
     #dl error  - sql-operations-studio
 
 # fonts:
