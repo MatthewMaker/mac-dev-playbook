@@ -34,6 +34,7 @@ homebrew_installed_packages:
   - multitail
   - curl
   - diff-so-fancy
+  - tiger-vnc
     #default  - wget
     #default  - node
     #default  - nvm
@@ -181,6 +182,10 @@ homebrew_installed_packages:
   - bash
   - bash-snippets
   - bash-git-prompt
+  - fsql # Search through your filesystem with SQL-esque queries
+  - mtr
+  - autossh
+  - autorest # Swagger (OpenAPI) Specification code generator
 
 homebrew_cask_apps:
     # default   - macvim
@@ -348,18 +353,189 @@ homebrew_cask_apps:
   - geekbench
   - cinebench
   - xbench
- 
+    #error   - mocha-keyboard
+  - bartender
+  - duet
+  - hammerspoon
+  - resilio-sync
+  - hearthstone
+  - brackets
+  - vox
+  - vox-preferences-pane
+  - fork
+  - mplayer-osx-extended
+  - mplayerx
+    #dl error  - wondershare-video-converter-ultimate
+  - 4k-video-downloader
+  - openshot-video-editor
+  - flixster-video
+    #dl error  - videomonkey
+  - videospec
+  - pixelconduit
+  - background-music
+  - musicbrainz-picard
+  - sonic-pi
+  - coda
+  - real-vnc
+  - docker-toolbox
+  - icamsource
+  - betterzip
+  - betterzipql # http://macitbetter.com/BetterZip-Quick-Look-Generator/
+  - bettertouchtool
+  - better-window-manager
+  - a-better-finder-attributes
+  - a-better-finder-rename
+  - vernier-graphical-analysis
+  - pixel-check # PiXel Check is an application that assists you in visually inspecting your LCD for bad or "dead" pixels.
+  - pixelpeeper # allows you to watch a pixel on your screen and execute an AppleScript when it sees that pixel change.
+  - finderminder # allows you to specify where (position) and what size you want newly opened Finder windows to appear.
+    #hash error - gitfinder # (trial) View local and remote branches, tags and submodules, execute various git operations ... from a feature-rich repository browser window.
+    #hash error  - neofinder # The Holy Grail of Media Asset Management
+  - path-finder # Manage your files like a PRO
+  - shortcut # (trial) a keyboard tool for Mac OS X that lets you "click" buttons and control your apps with a few keystrokes.
+  - shortcuts # Restart/Sleep/Logout/Shutdown shortcuts in Spotlight
+  - winfo # shows info about the window under the cursor. Hold the Command ⌘ key to freeze the display, then click on a label to copy to the clipboard.
+  - tuck # allows you to dock windows to the edge of your screen and automatically show when your cursor hits the screen edge.
+  - breakaway # Bind custom actions to mute/headphone events.
+  - netspot
+  - sketchup # friendly and forgiving 3D modeling software
+  - sketchupviewer
+  - pd
+# trying out:
+  - wireframe-sketcher # Wireframing Tool for Professionals
+  - iffmpeg # A Comprehensive Media Tool for macOS, High Quality Video Encoding
+  - ttscoff-mmd-quicklook # Improved QuickLook generator for MultiMarkdown files
+  - lyn
+  - ios-console
+  - izip
+  - etcher
+  - graphsketcher # A fast, simple graph drawing and data plotting app for OS X and iPad.
+  - welly
+  - zipeg # free application for opening ZIP and RAR files on Mac and Windows.
+  - zoom # a player for Z-Code, TADS and HUGO stories or games. These are usually text adventures
+  - wireover # a desktop application that leverages peer-to-peer technology for sending files privately.
+# clion # A cross-platform IDE for C and C++
+  - zerotier # simplify your network with a virtual networking layer that works the same everywhere.
+  - zotero # a free, easy-to-use tool to help you collect, organize, cite, and share research.
+  - zoo # (30d trial) SSH Client and Terminal Emulator for macOS and Windows
+    #error  - vimediamanager
+  - universal-media-server # a media server capable of serving videos, audio and images to any DLNA-capable device.
+  - overdrive-media-console # https://www.overdrive.com/ ?
+  - x2go # X2Go enables you to access a graphical desktop of a computer over a low bandwidth (or high bandwidth) connection.
+  - x2goclient  # http://x2go.org
+  - dewdrop # Dewdrop is a barebones, open-source, self-hosted Droplr clone, where you could just drop a file to your menu bar icon and easily share a file. see also https://github.com/kfatehi/dewdrop-server-node
+  - usb-overdrive # Take full advantage of any USB mouse, trackball, joystick or gamepad.
+  - sir-winston # MacOS Customization Script Generator
+  - nvalt #
+  - araxis-merge
+  - appcleaner # http://www.freemacsoft.net/appcleaner/
+  - carbon-copy-cloner # http://bombich.com/
+  - insomniax
+  - beardedspice
+  - soundflower
 #  - idisplay
+  - imageplay # a rapid prototyping tool for building and testing image processing algorithms
+  - 5kplayer
+  - autobeat-player # All your music in one place
+  - cineplay # Professional Mac media player
+  - plex-media-player # makes it possible to enjoy all of your media, whether in your living room, the car, or on a boat in the South Pacific!
+  - playmemories-home # Freeware which enables photos and videos to be easily managed and edited on Mac.
+  - autocode # Hackable, spec-driven code generator.
+    #dl error  - sql-operations-studio
 
-    #  - insomniax
-    #  - soundflower 
-    #  - beardedspice
+# fonts:
+  - font-profontx # programming and terminal font on MacOS.
+  - font-profont-windows-tweaked
+  - font-inconsolata-dz
+  - powerline-extra-symbols # Extra glyphs for your powerline separators
+  - font-courier-prime-code
+  - font-anka-coder
+  - font-inconsolata-lgc
+  - font-office-code-pro
+#  nerdfonts:
+  - font-3270-nerd-font
+  - font-3270-nerd-font-mono
+  - font-anonymouspro-nerd-font
+  - font-anonymouspro-nerd-font-mono
+  - font-arimo-nerd-font
+  - font-arimo-nerd-font-mono
+  - font-aurulentsansmono-nerd-font
+  - font-aurulentsansmono-nerd-font-mono
+  - font-bitstreamverasansmono-nerd-font
+  - font-bitstreamverasansmono-nerd-font-mono
+  - font-codenewroman-nerd-font
+  - font-codenewroman-nerd-font-mono
+  - font-cousine-nerd-font
+  - font-cousine-nerd-font-mono
+  - font-dejavusansmono-nerd-font
+  - font-dejavusansmono-nerd-font-mono
+  - font-droidsansmono-nerd-font
+  - font-droidsansmono-nerd-font-mono
+  - font-fantasquesansmono-nerd-font
+  - font-fantasquesansmono-nerd-font-mono
+  - font-firacode-nerd-font
+  - font-firacode-nerd-font-mono
+  - font-firamono-nerd-font
+  - font-firamono-nerd-font-mono
+  - font-go-mono-nerd-font
+  - font-go-mono-nerd-font-mono
+  - font-gohu-nerd-font
+  - font-gohu-nerd-font-mono
+  - font-hack-nerd-font
+  - font-hack-nerd-font-mono
+  - font-hasklig-nerd-font
+  - font-hasklig-nerd-font-mono
+  - font-heavydata-nerd-font
+  - font-heavydata-nerd-font-mono
+  - font-hermit-nerd-font
+  - font-hermit-nerd-font-mono
+  - font-inconsolata-nerd-font
+  - font-inconsolata-nerd-font-mono
+  - font-inconsolatago-nerd-font
+  - font-inconsolatago-nerd-font-mono
+  - font-inconsolatalgc-nerd-font
+  - font-inconsolatalgc-nerd-font-mono
+  - font-iosevka-nerd-font
+  - font-iosevka-nerd-font-mono
+  - font-lekton-nerd-font
+  - font-lekton-nerd-font-mono
+  - font-liberationmono-nerd-font
+  - font-liberationmono-nerd-font-mono
+  - font-meslo-nerd-font
+  - font-meslo-nerd-font-mono
+  - font-monofur-nerd-font
+  - font-monofur-nerd-font-mono
+  - font-monoid-nerd-font
+  - font-monoid-nerd-font-mono
+  - font-mononoki-nerd-font
+  - font-mononoki-nerd-font-mono
+  - font-mplus-nerd-font
+  - font-mplus-nerd-font-mono
+  - font-profont-nerd-font
+  - font-profont-nerd-font-mono
+  - font-proggyclean-nerd-font
+  - font-proggyclean-nerd-font-mono
+  - font-robotomono-nerd-font
+  - font-robotomono-nerd-font-mono
+  - font-sharetechmono-nerd-font
+  - font-sharetechmono-nerd-font-mono
+  - font-sourcecodepro-nerd-font
+  - font-sourcecodepro-nerd-font-mono
+  - font-spacemono-nerd-font
+  - font-spacemono-nerd-font-mono
+  - font-terminus-nerd-font
+  - font-terminus-nerd-font-mono
+  - font-tinos-nerd-font
+  - font-tinos-nerd-font-mono
+  - font-ubuntu-nerd-font
+  - font-ubuntu-nerd-font-mono
+  - font-ubuntumono-nerd-font
+  - font-ubuntumono-nerd-font-mono
 
 mas_installed_apps:
   - { id: 497799835, name: "Xcode" }
   - { id: 410628904, name: "Wunderlist: To-Do List & Tasks" }
-  - { id: 525912054, name: " WiFi Signal" }
-    #  - { id: 1278508951, name: "Trello" }
+  - { id: 525912054, name: "WiFi Signal" }
   - { id: 408981434, name: "iMovie" }
   - { id: 926036361, name: "LastPass Password Manager" }
   - { id: 576338668, name: "Leaf - RSS News Reader" }
@@ -371,35 +547,34 @@ mas_installed_apps:
   - { id: 409201541, name: "Pages" }
   - { id: 897118787, name: "Shazam" }
   - { id: 448003584, name: "Simplify: control your favourite music players" }
-    #411649452 RDM+ Desktop Lite (3.6)
-    #402375865 Constitution (1.1)
-    #633859558 Texas Constitution and Statutes Codes (TX Code) (2016.0217)
-    #411213048 LadioCast (0.12.4)
-    #829598718 Grace (3.9.0)
-#578078659 ScreenSharingMenulet (2.8)
-#549083868 Display Menu (2.2.3)
-#692867256 Simplenote (1.3.2)
-#425264550 Blackmagic Disk Speed Test (3.1)
-
-
-    #453114608 JSON Helper for AppleScript (1.07)
-    #1189824719 Jayson - Visual JSON Editor (1.8.1)
-    #508368068 Get Plain Text (2.0)
-    #457622435 Yoink - Improved Drag and Drop (3.4.2)
-    #995512723 Json Yaml Converter (1.1.1)
-    #944637952 PLIST-2-JSON (1.0)
-    #1165459773 JSON2Entity (1.0)
-    #1330801220 Paste JSON as Code • quicktype (8.2.22)
-    #1098183909 name: "Jet Format Transfer (converter JSON XML YAML CSV INI PLIST etc)"
-    #1035966756 Json2Native (1.0)
-    #833982915 Blinged JSON Validator (1.0.1)
-    #http://itunes.apple.com/us/app/json-accelerator/id511324989?ls=1&mt=12
+  - { id: 411649452, name: "RDM+ Desktop Lite" }
+  - { id: 402375865, name: "Constitution" }
+  - { id: 411213048, name: "LadioCast" }
+  - { id: 829598718, name: "Grace" }
+  - { id: 425264550, name: "Blackmagic Disk Speed Test" }
+  - { id: 1189824719, name: "Jayson - Visual JSON Editor" }
+  - { id: 578078659, name: "ScreenSharingMenulet" }
+  - { id: 692867256, name: "Simplenote" }
+  - { id: 549083868, name: "Display Menu" }
+  - { id: 511324989, name: "JSON Accelerator" } #http://itunes.apple.com/us/app/json-accelerator/id511324989?ls=1&mt=12
+  - { id: 508368068, name: "Get Plain Text" }
+  - { id: 457622435, name: "Yoink - Improved Drag and Drop" }
+  - { id: 1099573200, name: "ApiGenerator Free" }
+    #  - { id: 1278508951, name: "Trello" }
+    #  - { id: 633859558, name: "Texas Constitution and Statutes Codes" }
+    #  - { id: 1039355034, name: "VIDEO Oops - Fragment Removal PRO" }
+    #  - { id: 514840980, name: "Total Video Converter" }
+    #  - { id: 453114608, name: "JSON Helper for AppleScript" }
+    #  - { id: 995512723, name: "Json Yaml Converter" }
+    # - { id: 944637952, name: "PLIST-2-JSON" }
+    #  - { id: 1165459773, name: "JSON2Entity" }
+    #  - { id: 1330801220, name: "Paste JSON as Code • quicktype" }
+    #  - { id: 1098183909, name: "Jet Format Transfer (converter JSON XML YAML CSV INI PLIST etc)" }
+    #  - { id: 1035966756, name: "Json2Native" }
+    #  - { id: 833982915, name: "Blinged JSON Validator" }
+    
     # mas search JSON
     #
-    #1039355034 VIDEO Oops - Fragment Removal PRO (2.2.0)
-    #514840980 Total Video Converter (3.9.6)
-    #  - { id: 514951692, name:  "NetSpot: WiFi survey & wireless scanner" }
-    #1099573200 ApiGenerator Free (1.2.1)
 
     #  - { id: 1345892958, name: "Dr. Wifi: speed & signal test" }
     #  - { id: 494803304, name: "WiFi Explorer" }
