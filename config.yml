@@ -1,3 +1,6 @@
+---
+configure_ssh: yes
+
 homebrew_installed_packages:
   - go
   - ffmpeg

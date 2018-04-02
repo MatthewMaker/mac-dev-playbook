@@ -24,6 +24,10 @@
   tasks:
     - include: tasks/ansible-setup.yml
 
+    - include: tasks/ssh.yml
+      when: configure_ssh
+      tags: ['ssh']
+
     - include: tasks/sudoers.yml
       when: configure_sudoers
 

@@ -1,0 +1,7 @@
+---
+# Create a 2048-bit SSH key for user buildbot in ~buildbot/.ssh/id_rsa
+ - name: Create jenkins user with ssh key.
+   user: name=buildbot generate_ssh_key=yes ssh_key_bits=2049 ssh_key_file=.ssh/id_rsa createhome=yes groups="admin" comment="jenkins user" state=present
+   become: yes
+   become_method: sudo
+
