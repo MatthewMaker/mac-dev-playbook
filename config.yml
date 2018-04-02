@@ -245,7 +245,7 @@ homebrew_cask_apps:
   - synalyze-it-pro
   - spotify
   - pandora
-  - vitamin-r
+    #hash err - vitamin-r
   - avidemux
   - blender
   - wings3d
@@ -271,7 +271,7 @@ homebrew_cask_apps:
   - xmind
   - xquartz
   - meld
-  - aptanastudio # error in formula, should be https://github.com/aptana/studio3/releases/download/v3.6.1/Aptana_Studio_3.6.1_Setup.dmg
+    #- aptanastudio # error in formula, should be https://github.com/aptana/studio3/releases/download/v3.6.1/Aptana_Studio_3.6.1_Setup.dmg
 # https://github.com/caskroom/homebrew-cask/pull/36986
   - thunderbird
   - vivaldi
