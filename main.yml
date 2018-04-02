@@ -24,6 +24,9 @@
   tasks:
     - include: tasks/ansible-setup.yml
 
+    - include: tasks/firefox.yml
+      tags: ['firefox']
+
     - include: tasks/ssh.yml
       when: configure_ssh
       tags: ['ssh']

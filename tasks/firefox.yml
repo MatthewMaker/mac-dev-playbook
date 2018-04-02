@@ -1,0 +1,36 @@
+---
+
+- name: List all current Firefox profiles.
+  command: find /Users/trip/Library/Application\ Support/Firefox/profiles/ -mindepth 1 -maxdepth 1 -type d -exec basename {} \;
+  register: existing_firefox_profiles
+  changed_when: False
+
+- name: Ensure that each Firefox profile has a 'chrome' folder.
+  become: yes
+  file:
+    path: '/Users/trip/Library/Application Support/Firefox/profiles/{{ item }}/chrome'
+    owner: trip
+    group: staff
+    state: directory
+  with_items: '{{ existing_firefox_profiles.stdout_lines }}'
+
+- name: Customize each Firefox profile chrome for Tree Style Tabs add-on.
+  become: yes
+  copy:
+    src: 'files/firefox/userChrome.css'
+    dest: '/Users/trip/Library/Application Support/Firefox/profiles/{{ item }}/chrome/userChrome.css'
+    owner: trip
+    group: staff
+  with_items: '{{ existing_firefox_profiles.stdout_lines }}'
+
+- name: For each Firefox profile, do not show tabs in the Firefox title bar.
+  become: yes
+  lineinfile:
+    path: '/Users/trip/Library/Application Support/Firefox/profiles/{{ item }}/prefs.js'
+    regexp: ^user_pref..browser.tabs.drawInTitlebar. 
+    line: 'user_pref("browser.tabs.drawInTitlebar", false);'
+    state: present
+    create: true
+    owner: trip
+    group: staff
+  with_items: '{{ existing_firefox_profiles.stdout_lines }}'
