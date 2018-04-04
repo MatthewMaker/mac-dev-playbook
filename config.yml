@@ -203,6 +203,7 @@ homebrew_cask_apps:
   - choosy
   - vimr
   - sourcetree
+  - java #if this fails, may have to use 'brew reinstall'
   - google-backup-and-sync
   - spectacle
   - the-unarchiver
@@ -214,7 +215,6 @@ homebrew_cask_apps:
   - synergy
   - totalfinder
   - kindle
-  - java
   - flux
   - fluid
   - macbreakz
@@ -340,6 +340,7 @@ homebrew_cask_apps:
   - insomnia
   - graphicconverter
   - keyboard-maestro
+  - controllermate
   - airdisplay
   - displaycal
   - nativedisplaybrightness
