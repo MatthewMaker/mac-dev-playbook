@@ -1,0 +1,8 @@
+---
+- name: Customize iTerm's saved settings
+  become: yes
+  copy:
+    src: 'files/iterm/com.googlecode.iterm2.plist'
+    dest: '/Users/trip/Library/Preferences/'
+    owner: trip
+    group: staff
