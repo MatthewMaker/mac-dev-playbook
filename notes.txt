@@ -1,0 +1,22 @@
+https://github.com/fgimian/macbuild
+
+TODO:
+  * https://github.com/fgimian/macbuild/tree/master/roles/default_apps/tasks
+  * https://github.com/fgimian/macbuild/tree/master/roles/startup/tasks
+  * https://github.com/fgimian/macbuild/blob/master/roles/macos/tasks/main.yaml
+  * https://github.com/fgimian/macbuild/tree/master/roles/default_apps
+  * https://gist.github.com/kaloprominat/6111584
+
+osascript -e 'tell application "System Events" to get count of login items'
+osascript -e 'tell application "System Events" to get the name of every login item'
+https://hamstergene.github.io/posts/2013-07-03-editing-osx-login-items-cmdline/
+
+consider git submodules instead of requirements.yml
+
+https://www.reddit.com/r/ansible/comments/748443/pimp_my_playbook_and_workflow/
+https://www.serverraumgeschichten.de/2018/04/ansible-best-practices/
+https://www.redhat.com/en/blog/integrating-ansible-jenkins-cicd-process?scid=701f2000000tnTlAAI
+Ansible playbooks for complex tasks
+https://opensource.com/article/17/7/automate-sysadmin-ansible
+
+https://github.com/tonsky/FiraCode 
