@@ -28,7 +28,6 @@
       tags: ['firefox']
 
     - include: tasks/ssh.yml
-      when: configure_ssh
       tags: ['ssh']
 
     - include: tasks/sudoers.yml

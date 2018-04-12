@@ -1,6 +1,6 @@
 # Mac Development Ansible Playbook
 
-[![Build Status](https://travis-ci.org/geerlingguy/mac-dev-playbook.svg?branch=master)](https://travis-ci.org/geerlingguy/mac-dev-playbook)
+Borrowed from several other people's configs. What follows is mostly the previous person's docs:  - Matt
 
 This playbook installs and configures most of the software I use on my Mac for web and software development. Some things in macOS are slightly difficult to automate, so I still have some manual installation steps, but at least it's all documented here.
 
@@ -119,6 +119,11 @@ Finally, there are a few other preferences and settings added on for various app
 
 ## Future additions
 
+### Things that need to be done as part of the beginning of the process in order for it to work better
+
+  * temporarily make 'sudo' use permissive and not require password *while* we are running
+  * force the machine to not go to sleep, especially not if that turns off the network card and halts us!
+
 ### Things that still need to be done manually
 
 It's my hope that I can get the rest of these things wrapped up into Ansible playbooks soon, but for now, these steps need to be completed manually (assuming you already have Xcode and Ansible installed, and have run this playbook).
@@ -160,6 +165,6 @@ Additionally, this project is [continuously tested on Travis CI's macOS infrastr
 
 Check out [Ansible for DevOps](https://www.ansiblefordevops.com/), which teaches you how to automate almost anything with Ansible.
 
-## Author
+## Original Author
 
 [Jeff Geerling](http://www.jeffgeerling.com/), 2014 (originally inspired by [MWGriffin/ansible-playbooks](https://github.com/MWGriffin/ansible-playbooks)).
