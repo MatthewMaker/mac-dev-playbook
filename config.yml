@@ -4,11 +4,14 @@ configure_ssh: yes
 homebrew_installed_packages:
   - go
   - ffmpeg
+  - cmake
   - ansible-lint
   - gdbm
+  - emscripten
   - mplayer
   - scons
   - mysql
+  - p7zip # 7-Zip (high compression file archiver) implementation
   - uncrustify
   - yasm
   - unrar
@@ -180,6 +183,7 @@ homebrew_installed_packages:
   - aircrack-ng # Next-generation aircrack with lots of new features
   - movgrab # Downloader for youtube, dailymotion, and other video websites
   - webtorrent-cli # Command-line streaming torrent client
+  - opencv # Open source computer vision library
     #req java   - redpen
     #req: osxfuse  - gcsfuse
     # req: java  - swagger-codegen
@@ -190,6 +194,8 @@ homebrew_cask_apps:
   - airtable
   - datagrip
   - eloston-chromium
+  - firefox
+  - caskroom/versions/firefox-developer-edition
     #redundant w/above  - freesmug-chromium
     #redundant w/above  - chromium
   - istat-menus
@@ -322,6 +328,8 @@ homebrew_cask_apps:
   - quickgeojson
   - dupeGuru
   - unetbootin
+  - barxtemp
+  - discord
   - steam
   - omnidb  
   - meld
@@ -338,6 +346,7 @@ homebrew_cask_apps:
   - smartconverter
   - aimersoft-video-converter-ultimate
   - insomnia
+  - dash
   - graphicconverter
   - keyboard-maestro
   - controllermate
@@ -444,7 +453,10 @@ homebrew_cask_apps:
   - jtool # otool with additional Mach-O commands for examining Objective-C apps
   - dashcam-viewer # viewing movies, GPS data, and shock-sensor data recorded by your dashcam or action cam
   - xnviewmp # photo viewer, image resizer, batch image converter and more
+  - digikam
   - get-iplayer-automator # allow iTunes and your Mac to become the hub for your British Television experience regardless of where in the world you are
+  - zoomus # Video Conferencing and Web Conferencing Service
+  - nwjs # NW.js (previously known as node-webkit) lets you call all Node.js modules directly from DOM, enables writing applications with all Web technologies.
     #error  - vimediamanager
 # clion # A cross-platform IDE for C and C++
 #  - idisplay
@@ -538,6 +550,7 @@ homebrew_cask_apps:
   - font-ubuntu-nerd-font-mono
   - font-ubuntumono-nerd-font
   - font-ubuntumono-nerd-font-mono
+  - font-ricty-diminished
 
 mas_installed_apps:
   - { id: 497799835, name: "Xcode" }
@@ -594,6 +607,7 @@ npm_packages:
   - name: webpack
   - name: yarn
   - name: nativefier
+  - name: opencv4nodejs
 
 pip_packages:
   - name: mkdocs
