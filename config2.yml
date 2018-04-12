@@ -1,0 +1,613 @@
+---
+configure_ssh: yes
+
+homebrew_installed_packages:
+  - go
+  - ffmpeg
+  - cmake
+  - ansible-lint
+  - gdbm
+  - emscripten
+  - mplayer
+  - scons
+  - mysql
+  - p7zip # 7-Zip (high compression file archiver) implementation
+  - uncrustify
+  - yasm
+  - unrar
+  - tree
+  - sift
+  - aha
+  - gs
+  - osxutils
+  - mp4v2
+  - pngcrush
+  - imagemagick
+  - jpegoptim
+  - faad2
+  - sox
+  - automake
+  - mplayershell
+  - awscli
+  - aws-shell
+  - lastpass-cli
+  - swiftformat
+  - pstoedit
+  - gitversion
+  - git-crypt
+  - git-flow
+  - ripgrep
+  - multitail
+  - curl
+  - diff-so-fancy
+  - tiger-vnc
+  - multimarkdown
+  - resty
+  - mosh
+  - tmux
+  - gs
+  - fping
+  - mackup
+  - apib
+  - apibuilder-cli
+  - osquery
+  - vdirsyncer
+  - fcrackzip
+  - s-search
+  - sysbench
+  - putty
+  - ruby
+  - freeciv
+  - geoip
+  - hh
+  - tig
+  - the_silver_searcher
+  - the_platinum_searcher
+  - theora
+  - lolcat
+  - figlet
+  - zork
+  - zzz
+  - highlight
+  - megacmd
+  - megatools
+  - dockutil
+  - mmark
+  - mboxgrep
+  - wgetpaste
+  - frotz
+  - testdisk
+  - ddrescue
+  - jpegrescan
+  - jpeg-archive
+  - svg2pdf
+  - svg2png
+  - svgcleaner
+  - catimg
+  - webkit2png
+  - recoverjpeg  
+  - flickcurl
+  - imagesnap
+  - json-table  
+  - jsonlint
+  - sbjson
+  - jsawk  
+  - jq
+  - generate-json-schema
+  - smartmontools
+  - enscript
+  - docx2txt
+  - stunnel
+  - smartypants
+  - kotlin
+  - howdoi
+  - neal # (Not Exactly A Linter) is a language-independent code analysis tool that aims to enable more people to write quality enforcement rules.
+  - emacs
+  - ecasound
+  - aescrypt
+  - opencbm
+  - trash
+  - rmtrash
+  - vorbis-tools
+  - unison
+  - ntopng
+  - mutt
+  - muttils
+  - aspell
+  - assh
+  - z
+  - reattach-to-user-namespace
+  - shairport
+  - rename
+  - renameutils
+  - homeshick
+  - brightness
+  - dhcping
+  - dhcpdump
+  - mvtools
+  - mydumper
+  - screenresolution
+  - pwgen
+  - cless
+  - vimpager
+  - fuzzy-find
+  - cliclick
+  - prettyping
+  - privoxy
+  - mussh
+  - r
+  - switchaudio-osx
+  - swiftformat
+  - titlecase
+  - slackcat
+  - sgrep
+  - shpotify
+  - tidy-html5
+  - chromedriver
+  - tcping
+  - tcpdump
+  - tcptrace
+  - tcpflow
+  - tcpreplay
+  - tcpstat
+  - tcptrack
+  - tcptraceroute
+  - bettercap
+  - trafshow
+  - foremost
+  - hh
+  - calc
+  - htop
+  - links
+  - lynx
+  - ncdu
+  - lftp
+  - irssi
+  - ccrypt
+  - gpg
+  - speedtest_cli
+  - rlwrap
+  - colordiff
+  - watch
+  - vnstat
+  - hub
+  - graphicsmagick
+  - bash
+  - bash-snippets
+  - bash-git-prompt
+  - fsql # Search through your filesystem with SQL-esque queries
+  - mtr
+  - autossh
+  - autorest # Swagger (OpenAPI) Specification code generator
+  - proctools # pgrep, pkill, and pfind for OpenBSD and Darwin (macOS)
+  - aircrack-ng # Next-generation aircrack with lots of new features
+  - movgrab # Downloader for youtube, dailymotion, and other video websites
+  - webtorrent-cli # Command-line streaming torrent client
+  - opencv # Open source computer vision library
+    #req java   - redpen
+    #req: osxfuse  - gcsfuse
+    # req: java  - swagger-codegen
+
+#TODO put these in order of how essential I consider them
+homebrew_cask_apps:
+  - alfred
+  - airtable
+  - datagrip
+  - eloston-chromium
+  - firefox
+  - caskroom/versions/firefox-developer-edition
+    #redundant w/above  - freesmug-chromium
+    #redundant w/above  - chromium
+  - istat-menus
+  - lastpass
+  - cleanmymac
+  - folx
+  - lacona
+  - elmedia-player
+  - iterm2
+  - signal
+  - choosy
+  - vimr
+  - sourcetree
+  - java #if this fails, may have to use 'brew reinstall'
+  - google-backup-and-sync
+  - spectacle
+  - the-unarchiver
+  - markdown-service-tools
+  - omnigraffle
+  - sonic-visualiser
+  - oclint
+  - toggl
+  - synergy
+  - totalfinder
+  - kindle
+  - flux
+  - fluid
+  - macbreakz
+  - unity
+  - unity-monodevelop
+  - unity-ios-support-for-editor
+  - unity-android-support-for-editor
+  - unity-webgl-support-for-editor
+  - unity-windows-support-for-editor
+  - sleepyhead
+  - caffeine
+  - thebrain
+  - evernote
+  - disk-inventory-x
+  - kext-utility
+  - kextviewr
+  - libreoffice
+  - pacifist
+  - little-snitch
+  - jing
+  - dropbox
+  - dropbox-encore
+  - charles
+  - audacity
+  - timing # Automatically tracks everything you do in each app
+  - audacity-lame-library
+  - cloudlibrary
+  - synalyze-it-pro
+  - spotify
+  - pandora
+    #hash err - vitamin-r
+  - avidemux
+  - blender
+  - wings3d
+  - java
+  - gephi
+  - mpv
+  - ffmpegx
+  - vlc
+  - xee
+  - libav
+  - libaacs
+  - rubberband
+  - daisydisk
+  - recovery-disk-assistant
+  - diffmerge
+  - p4merge
+  - screenflow
+  - fantastical
+  - mactex
+  - scapple
+  - karabiner
+  - scrivener
+  - xmind
+  - xquartz
+  - meld
+    #- aptanastudio # error in formula, should be https://github.com/aptana/studio3/releases/download/v3.6.1/Aptana_Studio_3.6.1_Setup.dmg
+# https://github.com/caskroom/homebrew-cask/pull/36986
+  - thunderbird
+  - vivaldi
+  - palemoon
+  - virtualbox
+  - skyfonts
+  - shiori
+  - marked
+  - airtool
+  - rescuetime
+  - intellij-idea
+  - phonerescue
+  - data-rescue
+  - changes
+  - GrandPerspective
+  - cheetah3d
+  - gimp
+  - google-hangouts
+  - wineskin-winery
+  - filezilla
+  - parallels-desktop
+  - parallels-access
+  - virtualc64
+  - utorrent
+  - displaylink
+  - devonthink-pro-office
+  - kodi
+  - amazon-music
+  - rapidminer-studio
+  - atom
+  - wireshark
+  - mediainfo
+  - marshallofsound-google-play-music-player
+  - music-manager
+  - musictube
+  - freeter
+  - microsoft-azure-storage-explorer
+  - microsoft-r-open
+  - forklift
+  - osxfuse
+  - logicsniffer
+  - mosaic
+  - etrecheck
+  - hockey
+  - inssider
+  - quicklook-json
+  - visualjson
+  - quickgeojson
+  - dupeGuru
+  - unetbootin
+  - barxtemp
+  - discord
+  - steam
+  - omnidb  
+  - meld
+  - handy-outliner
+  - omnifocus
+  - omnioutliner
+  - omnipresence
+  - omniplan
+  - omniweb  
+  - omnidisksweeper
+  - simplifyextras
+  - sdformatter
+  - macx-video-converter-pro
+  - smartconverter
+  - aimersoft-video-converter-ultimate
+  - insomnia
+  - dash
+  - graphicconverter
+  - keyboard-maestro
+  - controllermate
+  - airdisplay
+  - displaycal
+  - nativedisplaybrightness
+  - geekbench
+  - cinebench
+  - xbench
+  - bartender
+  - duet
+  - hammerspoon
+  - resilio-sync
+  - hearthstone
+  - brackets
+  - vox
+  - vox-preferences-pane
+  - fork
+  - mplayer-osx-extended
+  - mplayerx
+  - 4k-video-downloader
+  - openshot-video-editor
+  - flixster-video
+  - videospec
+  - pixelconduit
+  - background-music
+  - musicbrainz-picard
+  - sonic-pi
+  - coda
+  - real-vnc
+  - docker-toolbox
+  - icamsource
+  - betterzip
+  - betterzipql # http://macitbetter.com/BetterZip-Quick-Look-Generator/
+  - bettertouchtool
+  - better-window-manager
+  - a-better-finder-attributes
+  - a-better-finder-rename
+  - vernier-graphical-analysis
+  - pixel-check # PiXel Check is an application that assists you in visually inspecting your LCD for bad or "dead" pixels.
+  - pixelpeeper # allows you to watch a pixel on your screen and execute an AppleScript when it sees that pixel change.
+  - finderminder # allows you to specify where (position) and what size you want newly opened Finder windows to appear.
+  - path-finder # Manage your files like a PRO
+  - shortcut # (trial) a keyboard tool for Mac OS X that lets you "click" buttons and control your apps with a few keystrokes.
+  - shortcuts # Restart/Sleep/Logout/Shutdown shortcuts in Spotlight
+  - winfo # shows info about the window under the cursor. Hold the Command ⌘ key to freeze the display, then click on a label to copy to the clipboard.
+  - tuck # allows you to dock windows to the edge of your screen and automatically show when your cursor hits the screen edge.
+  - breakaway # Bind custom actions to mute/headphone events.
+  - netspot
+  - sketchup # friendly and forgiving 3D modeling software
+  - sketchupviewer
+  - pd
+    #hash error - gitfinder # (trial) View local and remote branches, tags and submodules, execute various git operations ... from a feature-rich repository browser window.
+    #hash error  - neofinder # The Holy Grail of Media Asset Management
+    #bad hash  - unrarx
+    #error   - mocha-keyboard
+    #dl error  - wondershare-video-converter-ultimate
+    #dl error  - videomonkey
+    #hash error  - hazeover
+  - wireframe-sketcher # Wireframing Tool for Professionals
+  - iffmpeg # A Comprehensive Media Tool for macOS, High Quality Video Encoding
+  - ttscoff-mmd-quicklook # Improved QuickLook generator for MultiMarkdown files
+  - lyn
+  - ios-console
+  - android-studio
+  - izip
+  - etcher
+  - graphsketcher # A fast, simple graph drawing and data plotting app for OS X and iPad.
+  - welly
+  - zipeg # free application for opening ZIP and RAR files on Mac and Windows.
+  - zoom # a player for Z-Code, TADS and HUGO stories or games. These are usually text adventures
+  - wireover # a desktop application that leverages peer-to-peer technology for sending files privately.
+  - zerotier # simplify your network with a virtual networking layer that works the same everywhere.
+  - zotero # a free, easy-to-use tool to help you collect, organize, cite, and share research.
+  - zoo # (30d trial) SSH Client and Terminal Emulator for macOS and Windows
+  - universal-media-server # a media server capable of serving videos, audio and images to any DLNA-capable device.
+  - overdrive-media-console # https://www.overdrive.com/ ?
+  - x2go # X2Go enables you to access a graphical desktop of a computer over a low bandwidth (or high bandwidth) connection.
+  - x2goclient  # http://x2go.org
+  - dewdrop # Dewdrop is a barebones, open-source, self-hosted Droplr clone, where you could just drop a file to your menu bar icon and easily share a file. see also https://github.com/kfatehi/dewdrop-server-node
+  - usb-overdrive # Take full advantage of any USB mouse, trackball, joystick or gamepad.
+  - sir-winston # MacOS Customization Script Generator
+  - nvalt #
+  - araxis-merge
+  - appcleaner # http://www.freemacsoft.net/appcleaner/
+  - carbon-copy-cloner # http://bombich.com/
+  - insomniax
+  - beardedspice
+  - soundflower
+  - imageplay # a rapid prototyping tool for building and testing image processing algorithms
+  - 5kplayer
+  - autobeat-player # All your music in one place
+  - cineplay # Professional Mac media player
+  - plex-media-player # makes it possible to enjoy all of your media, whether in your living room, the car, or on a boat in the South Pacific!
+  - playmemories-home # Freeware which enables photos and videos to be easily managed and edited on Mac.
+  - autocode # Hackable, spec-driven code generator.
+  - macdown # an open source Markdown editor for macOS
+  - fastscripts
+  - script-debugger
+  - scriptql # AppleScript Quick Look plugin
+  - db-browser-for-sqlite # a high quality, visual, open source tool to create, design, and edit database files compatible with SQLite.
+  - sqlitestudio # a portable SQLite database manager
+  - supaview # a tool to help you locate big folders and big files on your hard disk
+  - jtool # otool with additional Mach-O commands for examining Objective-C apps
+  - dashcam-viewer # viewing movies, GPS data, and shock-sensor data recorded by your dashcam or action cam
+  - xnviewmp # photo viewer, image resizer, batch image converter and more
+  - digikam
+  - get-iplayer-automator # allow iTunes and your Mac to become the hub for your British Television experience regardless of where in the world you are
+  - zoomus # Video Conferencing and Web Conferencing Service
+  - nwjs # NW.js (previously known as node-webkit) lets you call all Node.js modules directly from DOM, enables writing applications with all Web technologies.
+    #error  - vimediamanager
+# clion # A cross-platform IDE for C and C++
+#  - idisplay
+    #dl error  - sql-operations-studio
+
+# fonts:
+  - font-profontx # programming and terminal font on MacOS.
+  - font-profont-windows-tweaked
+  - font-inconsolata-dz
+  - powerline-extra-symbols # Extra glyphs for your powerline separators
+  - font-courier-prime-code
+  - font-anka-coder
+  - font-inconsolata-lgc
+  - font-office-code-pro
+#  nerdfonts:
+  - font-3270-nerd-font
+  - font-3270-nerd-font-mono
+  - font-anonymouspro-nerd-font
+  - font-anonymouspro-nerd-font-mono
+  - font-arimo-nerd-font
+  - font-arimo-nerd-font-mono
+  - font-aurulentsansmono-nerd-font
+  - font-aurulentsansmono-nerd-font-mono
+  - font-bitstreamverasansmono-nerd-font
+  - font-bitstreamverasansmono-nerd-font-mono
+  - font-codenewroman-nerd-font
+  - font-codenewroman-nerd-font-mono
+  - font-cousine-nerd-font
+  - font-cousine-nerd-font-mono
+  - font-dejavusansmono-nerd-font
+  - font-dejavusansmono-nerd-font-mono
+  - font-droidsansmono-nerd-font
+  - font-droidsansmono-nerd-font-mono
+  - font-fantasquesansmono-nerd-font
+  - font-fantasquesansmono-nerd-font-mono
+  - font-firacode-nerd-font
+  - font-firacode-nerd-font-mono
+  - font-firamono-nerd-font
+  - font-firamono-nerd-font-mono
+  - font-go-mono-nerd-font
+  - font-go-mono-nerd-font-mono
+  - font-gohu-nerd-font
+  - font-gohu-nerd-font-mono
+  - font-hack-nerd-font
+  - font-hack-nerd-font-mono
+  - font-hasklig-nerd-font
+  - font-hasklig-nerd-font-mono
+  - font-heavydata-nerd-font
+  - font-heavydata-nerd-font-mono
+  - font-hermit-nerd-font
+  - font-hermit-nerd-font-mono
+  - font-inconsolata-nerd-font
+  - font-inconsolata-nerd-font-mono
+  - font-inconsolatago-nerd-font
+  - font-inconsolatago-nerd-font-mono
+  - font-inconsolatalgc-nerd-font
+  - font-inconsolatalgc-nerd-font-mono
+  - font-iosevka-nerd-font
+  - font-iosevka-nerd-font-mono
+  - font-lekton-nerd-font
+  - font-lekton-nerd-font-mono
+  - font-liberationmono-nerd-font
+  - font-liberationmono-nerd-font-mono
+  - font-meslo-nerd-font
+  - font-meslo-nerd-font-mono
+  - font-monofur-nerd-font
+  - font-monofur-nerd-font-mono
+  - font-monoid-nerd-font
+  - font-monoid-nerd-font-mono
+  - font-mononoki-nerd-font
+  - font-mononoki-nerd-font-mono
+  - font-mplus-nerd-font
+  - font-mplus-nerd-font-mono
+  - font-profont-nerd-font
+  - font-profont-nerd-font-mono
+  - font-proggyclean-nerd-font
+  - font-proggyclean-nerd-font-mono
+  - font-robotomono-nerd-font
+  - font-robotomono-nerd-font-mono
+  - font-sharetechmono-nerd-font
+  - font-sharetechmono-nerd-font-mono
+  - font-sourcecodepro-nerd-font
+  - font-sourcecodepro-nerd-font-mono
+  - font-spacemono-nerd-font
+  - font-spacemono-nerd-font-mono
+  - font-terminus-nerd-font
+  - font-terminus-nerd-font-mono
+  - font-tinos-nerd-font
+  - font-tinos-nerd-font-mono
+  - font-ubuntu-nerd-font
+  - font-ubuntu-nerd-font-mono
+  - font-ubuntumono-nerd-font
+  - font-ubuntumono-nerd-font-mono
+  - font-ricty-diminished
+
+mas_installed_apps:
+  - { id: 497799835, name: "Xcode" }
+  - { id: 410628904, name: "Wunderlist: To-Do List & Tasks" }
+  - { id: 525912054, name: "WiFi Signal" }
+  - { id: 408981434, name: "iMovie" }
+  - { id: 926036361, name: "LastPass Password Manager" }
+  - { id: 576338668, name: "Leaf - RSS News Reader" }
+  - { id: 1090760166, name: "More Info" }
+  - { id: 421131143, name: "MPlayerX" }
+  - { id: 1037126344, name: "Apple Configurator 2" }
+  - { id: 668208984, name: "GIPHY Capture. The GIF Maker" }
+  - { id: 409203825, name: "Numbers" }
+  - { id: 409201541, name: "Pages" }
+  - { id: 897118787, name: "Shazam" }
+  - { id: 448003584, name: "Simplify: control your favourite music players" }
+  - { id: 411649452, name: "RDM+ Desktop Lite" }
+  - { id: 402375865, name: "Constitution" }
+  - { id: 411213048, name: "LadioCast" }
+  - { id: 829598718, name: "Grace" }
+  - { id: 425264550, name: "Blackmagic Disk Speed Test" }
+  - { id: 1189824719, name: "Jayson - Visual JSON Editor" }
+  - { id: 578078659, name: "ScreenSharingMenulet" }
+  - { id: 692867256, name: "Simplenote" }
+  - { id: 549083868, name: "Display Menu" }
+  - { id: 511324989, name: "JSON Accelerator" } #http://itunes.apple.com/us/app/json-accelerator/id511324989?ls=1&mt=12
+  - { id: 508368068, name: "Get Plain Text" }
+  - { id: 457622435, name: "Yoink - Improved Drag and Drop" }
+  - { id: 1099573200, name: "ApiGenerator Free" }
+    #  - { id: 1278508951, name: "Trello" }
+    #  - { id: 633859558, name: "Texas Constitution and Statutes Codes" }
+    #  - { id: 1039355034, name: "VIDEO Oops - Fragment Removal PRO" }
+    #  - { id: 514840980, name: "Total Video Converter" }
+    #  - { id: 453114608, name: "JSON Helper for AppleScript" }
+    #  - { id: 995512723, name: "Json Yaml Converter" }
+    # - { id: 944637952, name: "PLIST-2-JSON" }
+    #  - { id: 1165459773, name: "JSON2Entity" }
+    #  - { id: 1330801220, name: "Paste JSON as Code • quicktype" }
+    #  - { id: 1098183909, name: "Jet Format Transfer (converter JSON XML YAML CSV INI PLIST etc)" }
+    #  - { id: 1035966756, name: "Json2Native" }
+    #  - { id: 833982915, name: "Blinged JSON Validator" }
+    
+    # mas search JSON
+    #
+
+    #  - { id: 1345892958, name: "Dr. Wifi: speed & signal test" }
+    #  - { id: 494803304, name: "WiFi Explorer" }
+
+    #gem_packages:
+    #  - name: bundler
+    #state: latest
+
+npm_packages:
+  - name: webpack
+  - name: yarn
+  - name: nativefier
+  - name: opencv4nodejs
+
+pip_packages:
+  - name: mkdocs
