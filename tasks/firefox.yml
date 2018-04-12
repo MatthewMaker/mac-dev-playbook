@@ -1,6 +1,12 @@
 ---
 
-- name: List all current Firefox profiles.
+- name: Create a Firefox profile if none exist.
+  command: /Applications/Firefox.app/Contents/MacOS/firefox-bin -CreateProfile trip
+  args:
+    chdir: '/Users/trip/Library/Application Support/Firefox/profiles'
+    creates: '/Users/trip/Library/Application Support/Firefox/profiles/*'
+
+- name: Get all current Firefox profiles.
   command: find /Users/trip/Library/Application\ Support/Firefox/profiles/ -mindepth 1 -maxdepth 1 -type d -exec basename {} \;
   register: existing_firefox_profiles
   changed_when: False
