@@ -346,7 +346,7 @@ homebrew_cask_apps:
   - smartconverter
   - aimersoft-video-converter-ultimate
   - insomnia
-  - dash
+    # checksum fail   - dash
   - graphicconverter
   - keyboard-maestro
   - controllermate
