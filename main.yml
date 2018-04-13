@@ -40,6 +40,9 @@
       when: configure_osx
       tags: ['osx']
 
+    - include: tasks/sourcetree.yml
+      tags: ['sourcetree']
+
     - include: tasks/iterm2.yml
       tags: ['iterm2']
 

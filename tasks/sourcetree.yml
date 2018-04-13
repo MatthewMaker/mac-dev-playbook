@@ -1,0 +1,10 @@
+---
+
+- name: Install defaults for SourceTree.
+  become: yes
+  copy:
+    src: 'files/sourcetree/com.torusknot.SourceTreeNotMAS.plist'
+    dest: '/Users/trip/Library/Preferences/com.torusknot.SourceTreeNotMAS.plist'
+    owner: trip
+    group: staff
+
