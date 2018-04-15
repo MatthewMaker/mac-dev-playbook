@@ -1,0 +1,6 @@
+---
+- name: add login item
+  command: 'loginitems -a "{{ item }}" -p "{{ item }}" -s true'
+  changed_when: false
+  with_items: "{{ login_items }}"
+  #echo ''{"a": 1, "b": 2}'''
