@@ -2,6 +2,7 @@
 configure_ssh: yes
 
 homebrew_installed_packages:
+  - loginitems
   - go
   - ffmpeg
   - cmake
@@ -602,6 +603,19 @@ mas_installed_apps:
     #gem_packages:
     #  - name: bundler
     #state: latest
+
+login_items:
+  - Flux
+  - Dropbox
+  - Alfred
+  - MacBreakZ
+  - barXtemp
+  - "/Applications/WiFi Signal.app"
+  - Caffeine
+  - RescueTime
+#Choosy?
+#Wunderlist's helper
+#Evernote's helper
 
 npm_packages:
   - name: webpack
