@@ -193,6 +193,7 @@ homebrew_installed_packages:
 homebrew_cask_apps:
   - alfred
   - airtable
+  - slack
   - datagrip
   - eloston-chromium
   - firefox
@@ -225,6 +226,7 @@ homebrew_cask_apps:
   - flux
   - fluid
   - macbreakz
+  - unity-hub
   - unity
   - unity-monodevelop
   - unity-ios-support-for-editor
@@ -459,6 +461,8 @@ homebrew_cask_apps:
   - zoomus # Video Conferencing and Web Conferencing Service
   - nwjs # NW.js (previously known as node-webkit) lets you call all Node.js modules directly from DOM, enables writing applications with all Web technologies.
   - rider # JetBrains Rider - A cross-platform IDE for .NET developers
+    #  - ansible-dk # An omnibus-based toolkit for working on Ansible-based infrastructure tools.
+    #       eval "$(ansible-dk shell-init bash)"
     #error  - vimediamanager
 # clion # A cross-platform IDE for C and C++
 #  - idisplay
@@ -618,6 +622,7 @@ login_items:
   - "/Applications/Air Display Host.app"
   - /Applications/Synergy.app
   - /Applications/Spotify.app
+  - "/Applications/Bartender 3.app"
 #Choosy?
 #Wunderlist's helper
 #Evernote's helper
