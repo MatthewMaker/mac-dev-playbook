@@ -614,6 +614,8 @@ login_items:
   - "/Applications/WiFi Signal.app"
   - /Applications/Caffeine.app
   - /Applications/RescueTime.app
+  - /Applications/TogglDesktop.app
+  - "/Applications/Air Display Host.app"
 #Choosy?
 #Wunderlist's helper
 #Evernote's helper
