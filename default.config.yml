@@ -59,7 +59,7 @@ homebrew_cask_apps:
   - dropbox
   # - fing # Download link keeps getting changed, d'oh!
   - firefox
-  - google-chrome
+    #  - google-chrome # now using danbohea.google-chrome
   - handbrake
   - licecap
   - limechat
