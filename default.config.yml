@@ -39,7 +39,6 @@ homebrew_installed_packages:
   - node
   - nvm
   - ssh-copy-id
-    #  - cowsay
   - readline
   - openssl
   - pv
@@ -50,7 +49,6 @@ homebrew_taps:
   - homebrew/core
   - caskroom/cask
   - MatthewMaker/core
-    #  - homebrew/php
   - caskroom/fonts
 
 homebrew_cask_appdir: /Applications
