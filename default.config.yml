@@ -15,7 +15,6 @@ dotfiles_files:
   - .gitignore
   - .inputrc
   - .macos
-  - .osx
   - .vimrc
   - .add_all_ssh_keys
 
