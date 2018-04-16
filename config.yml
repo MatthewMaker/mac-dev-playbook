@@ -606,14 +606,14 @@ mas_installed_apps:
     #state: latest
 
 login_items:
-  - Flux
-  - Dropbox
-  - Alfred
-  - MacBreakZ
-  - barXtemp
+  - /Applications/Flux.app
+  - /Applications/Dropbox.app
+  - "/Applications/Alfred 3.app"
+  - "/Applications/MacBreakZ 5.app"
+  - /Applications/barXtemp.app
   - "/Applications/WiFi Signal.app"
-  - Caffeine
-  - RescueTime
+  - /Applications/Caffeine.app
+  - /Applications/RescueTime.app
 #Choosy?
 #Wunderlist's helper
 #Evernote's helper
