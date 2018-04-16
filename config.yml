@@ -458,6 +458,7 @@ homebrew_cask_apps:
   - get-iplayer-automator # allow iTunes and your Mac to become the hub for your British Television experience regardless of where in the world you are
   - zoomus # Video Conferencing and Web Conferencing Service
   - nwjs # NW.js (previously known as node-webkit) lets you call all Node.js modules directly from DOM, enables writing applications with all Web technologies.
+  - rider # JetBrains Rider - A cross-platform IDE for .NET developers
     #error  - vimediamanager
 # clion # A cross-platform IDE for C and C++
 #  - idisplay
