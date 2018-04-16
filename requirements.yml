@@ -3,3 +3,5 @@
   - src: geerlingguy.homebrew
   - src: geerlingguy.mas
   - src: danbohea.google-chrome
+  - src: danbohea.macos-spelling
+    version: 1.0.0

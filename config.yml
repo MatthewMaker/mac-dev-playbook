@@ -628,6 +628,14 @@ login_items:
 #Wunderlist's helper
 #Evernote's helper
 
+# Words to add to the custom LocalDictionary file.
+# These do not have to be in alphabetical order
+# (the role will take care of sorting for you).
+macos_spelling_localdictionary_words:
+  - Ansible
+  - idempotence
+  - Macsible
+
 npm_packages:
   - name: webpack
   - name: yarn
