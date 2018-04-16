@@ -616,6 +616,8 @@ login_items:
   - /Applications/RescueTime.app
   - /Applications/TogglDesktop.app
   - "/Applications/Air Display Host.app"
+  - /Applications/Synergy.app
+  - /Applications/Spotify.app
 #Choosy?
 #Wunderlist's helper
 #Evernote's helper
