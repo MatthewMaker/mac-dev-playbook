@@ -461,6 +461,7 @@ homebrew_cask_apps:
   - zoomus # Video Conferencing and Web Conferencing Service
   - nwjs # NW.js (previously known as node-webkit) lets you call all Node.js modules directly from DOM, enables writing applications with all Web technologies.
   - rider # JetBrains Rider - A cross-platform IDE for .NET developers
+  - beyond-compare # a good visual folder diff
     #  - ansible-dk # An omnibus-based toolkit for working on Ansible-based infrastructure tools.
     #       eval "$(ansible-dk shell-init bash)"
     #error  - vimediamanager
