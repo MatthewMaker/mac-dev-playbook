@@ -625,6 +625,7 @@ login_items:
   - /Applications/Spotify.app
   - "/Applications/Bartender 3.app"
   - /Applications/Evernote.app
+  - /Applications/Signal.app
 #Choosy?
 #Wunderlist's helper
 #Evernote's helper
@@ -645,3 +646,5 @@ npm_packages:
 
 pip_packages:
   - name: mkdocs
+  - name: bitbucket-cli
+
