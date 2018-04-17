@@ -195,9 +195,9 @@ homebrew_cask_apps:
   - airtable
   - slack
   - datagrip
-  - eloston-chromium
   - firefox
   - caskroom/versions/firefox-developer-edition
+  - eloston-chromium
     #redundant w/above  - freesmug-chromium
     #redundant w/above  - chromium
   - istat-menus

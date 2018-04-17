@@ -16,7 +16,6 @@ dotfiles_files:
   - .inputrc
   - .macos
   - .vimrc
-  - .add_all_ssh_keys
 
 homebrew_installed_packages:
   # - ansible # Installed via Pip.
