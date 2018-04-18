@@ -94,7 +94,7 @@ homebrew_installed_packages:
   - jsonlint
   - sbjson
   - jsawk  
-  - jq - # 'like sed for JSON data'
+  - jq # 'like sed for JSON data'
   - generate-json-schema
   - smartmontools
   - enscript
@@ -642,7 +642,7 @@ macos_spelling_localdictionary_words:
   - Macsible
 
 firefox_extensions:
-  -  @testpilot-containers.xpi
+  - "@testpilot-containers.xpi"
   - ImageSaver@Merci.chao.xpi
   - category-tabs-for-google-keep@carlosjeurissen.com.xpi
   - cliget@zaidabdulla.com.xpi
