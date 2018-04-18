@@ -664,7 +664,7 @@ macos_spelling_localdictionary_words:
   - Macsible
 
 firefox_extensions:
-  - @testpilot-containers.xpi
+  - "@testpilot-containers.xpa"
   - ImageSaver@Merci.chao.xpi
   - category-tabs-for-google-keep@carlosjeurissen.com.xpi
   - cliget@zaidabdulla.com.xpi
