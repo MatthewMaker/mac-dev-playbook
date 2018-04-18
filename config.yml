@@ -98,7 +98,7 @@ homebrew_installed_packages:
   - jsonlint
   - sbjson
   - jsawk  
-  - jq - # 'like sed for JSON data'
+  - jq # 'like sed for JSON data'
   - generate-json-schema
   - smartmontools
   - enscript
