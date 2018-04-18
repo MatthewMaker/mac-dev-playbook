@@ -641,6 +641,49 @@ macos_spelling_localdictionary_words:
   - idempotence
   - Macsible
 
+firefox_extensions:
+  -  @testpilot-containers.xpi
+  - ImageSaver@Merci.chao.xpi
+  - category-tabs-for-google-keep@carlosjeurissen.com.xpi
+  - cliget@zaidabdulla.com.xpi
+    #copyfish@a9t9.com.xpi
+  - easyscreenshot@mozillaonline.com.xpi
+  - extension@one-tab.com.xpi
+  - firefox@choosyosx.com.xpi
+  - gkeeppanel@alejandrobrizuela.com.ar.xpi
+  - gtaskpanel@alejandrobrizuela.com.ar.xpi
+    #jid0-GXjLLfbCoAx0LcltEdFrEkQdQPI@jetpack.xpi
+    #jid1-BYcQOfYfmBMd9A@jetpack.xpi
+#jid1-BoFifL9Vbdl2zQ@jetpack.xpi
+#jid1-q4sG8pYhq8KGHs@jetpack.xpi
+#jid1-zUrvDCat3xoDSQ@jetpack.xpi
+#jsonovich@lackoftalent.org.xpi
+#newtaboverride@agenedia.com.xpi
+  - rescuetime_firefox@rescuetime.com.xpi
+    #savedpasswordeditor@daniel.dawson.xpi
+  - support@lastpass.com.xpi
+    #support@wildfire.ai.xpi
+    #translator@zoli.bod.xpi
+  - treestyletab@piro.sakura.ne.jp.xpi
+  - wayback_machine@mozilla.org.xpi
+    #{20068ab2-1901-4140-9f3c-81207d4dacc4}.xpi
+    #{2e5ff8c8-32fe-46d0-9fc8-6b8986621f3c}.xpi
+    #{46551EC9-40F0-4e47-8E18-8E5CF550CFB8}.xpi
+    #{5384767E-00D9-40E9-B72F-9CC39D655D6F}.xpi
+    #{73a6fe31-595d-460b-a920-fcc0f8843232}.xpi
+    #{987311C6-B504-4aa2-90BF-60CC49808D42}.xpi
+    #{DDC359D1-844A-42a7-9AA1-88A850A938A8}.xpi
+    #{a94d60a0-8408-4c53-8eec-cb349eb958b8}.xpi
+    #{ad0d925d-88f8-47f1-85ea-8463569e756e}.xpi
+    #{b9db16a4-6edc-47ec-a1f4-b86292ed211d}.xpi
+    #{bee6eb20-01e0-ebd1-da83-080329fb9a3a}.xpi
+    #{d23b4441-93a6-4e68-a8ba-8a8732521369}.xpi
+    #{dc3dce74-bf98-4eb4-adc4-75597edb6c5c}.xpi
+    #{e4a8a97b-f2ed-450b-b12d-ee082ba24781}.xpi
+    #{e968fc70-8f95-4ab9-9e79-304de2a71ee1}.xpi
+#{fc2b8f80-d9a5-4f51-8076-7c7ce3c67ee3}.xpi
+
+
 npm_packages:
   - name: webpack
   - name: yarn
