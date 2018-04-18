@@ -61,7 +61,7 @@ homebrew_installed_packages:
   - ruby
   - freeciv
   - geoip
-  - hh
+  - hh # shell history browser / searcher
   - tig
   - the_silver_searcher
   - the_platinum_searcher
@@ -94,7 +94,7 @@ homebrew_installed_packages:
   - jsonlint
   - sbjson
   - jsawk  
-  - jq
+  - jq - # 'like sed for JSON data'
   - generate-json-schema
   - smartmontools
   - enscript
