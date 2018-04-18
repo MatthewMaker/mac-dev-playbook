@@ -14,6 +14,10 @@ homebrew_installed_packages:
   - mysql
   - p7zip # 7-Zip (high compression file archiver) implementation
   - git-sizer # Compute various size metrics for a Git repository
+  - firebase-cli # Firebase command-line tools
+  - modd # A flexible tool for responding to filesystem changes
+  - devd # Local webserver for developers
+  - ansible-cmdb # Generates static HTML overview page from Ansible facts
   - uncrustify
   - yasm
   - unrar
@@ -39,7 +43,7 @@ homebrew_installed_packages:
   - git-crypt
   - git-flow
   - ripgrep
-  - multitail
+  - multitail # Tail multiple files in one terminal simultaneously
   - curl
   - diff-so-fancy
   - tiger-vnc
@@ -170,6 +174,7 @@ homebrew_installed_packages:
   - speedtest_cli
   - rlwrap
   - colordiff
+  - diffuse # Graphical tool for merging and comparing text files
   - watch
   - vnstat
   - hub
@@ -186,13 +191,18 @@ homebrew_installed_packages:
   - movgrab # Downloader for youtube, dailymotion, and other video websites
   - webtorrent-cli # Command-line streaming torrent client
   - opencv # Open source computer vision library
+  - sshfs # may require fuse
+  - fuse-zip # FUSE file system to create & manipulate ZIP archives
+  - ifuse # FUSE module for iPhone and iPod Touch devices
+  - ext4fuse # Read-only implementation of ext4 for FUSE
+  - ext2fuse # Compact implementation of ext2 file system using FUSE
     #req java   - redpen
-    #req: osxfuse  - gcsfuse
     # req: java  - swagger-codegen
 
 #TODO put these in order of how essential I consider them
 homebrew_cask_apps:
   - alfred
+  - osxfuse
   - airtable
   - slack
   - datagrip
@@ -255,7 +265,6 @@ homebrew_cask_apps:
   - synalyze-it-pro
   - spotify
   - pandora
-    #hash err - vitamin-r
   - avidemux
   - blender
   - wings3d
@@ -281,8 +290,6 @@ homebrew_cask_apps:
   - xmind
   - xquartz
   - meld
-    #- aptanastudio # error in formula, should be https://github.com/aptana/studio3/releases/download/v3.6.1/Aptana_Studio_3.6.1_Setup.dmg
-# https://github.com/caskroom/homebrew-cask/pull/36986
   - thunderbird
   - vivaldi
   - palemoon
@@ -321,7 +328,6 @@ homebrew_cask_apps:
   - microsoft-azure-storage-explorer
   - microsoft-r-open
   - forklift
-  - osxfuse
   - logicsniffer
   - mosaic
   - etrecheck
@@ -350,7 +356,6 @@ homebrew_cask_apps:
   - smartconverter
   - aimersoft-video-converter-ultimate
   - insomnia
-    # checksum fail   - dash
   - graphicconverter
   - keyboard-maestro
   - controllermate
@@ -403,13 +408,6 @@ homebrew_cask_apps:
   - sketchup # friendly and forgiving 3D modeling software
   - sketchupviewer
   - pd
-    #hash error - gitfinder # (trial) View local and remote branches, tags and submodules, execute various git operations ... from a feature-rich repository browser window.
-    #hash error  - neofinder # The Holy Grail of Media Asset Management
-    #bad hash  - unrarx
-    #error   - mocha-keyboard
-    #dl error  - wondershare-video-converter-ultimate
-    #dl error  - videomonkey
-    #hash error  - hazeover
   - wireframe-sketcher # Wireframing Tool for Professionals
   - iffmpeg # A Comprehensive Media Tool for macOS, High Quality Video Encoding
   - ttscoff-mmd-quicklook # Improved QuickLook generator for MultiMarkdown files
@@ -464,11 +462,35 @@ homebrew_cask_apps:
   - rider # JetBrains Rider - A cross-platform IDE for .NET developers
   - beyond-compare # a good visual folder diff
   - instasizer # art asset resizing
+  - carbon-copy-cloner
+  - foreman # clean up alt-tab app list
+  - topcat # Tool for OPerations on Catalogues And Tables - Does what you want with tables
+  - wiring # an open-source programming framework for microcontrollers.
+  - vessel # automates the setup & use of dockerized development environments
+  - tag # a metadata editor for FLAC, Ogg Vorbis, Monkey's Audio and WavPack files
+  - consul-cli # a command line interface to the Consul HTTP API
+  - speedcrunch # a high-precision scientific calculator featuring a fast, keyboard-driven user interface
+  - snip # Capture scrolling windows
+  - snippets # сreate, organize, and reuse your code snippets
+  - soundcloud-downloader
+  - snes9x
+  - smartgit # a Git client with support for GitHub Pull Requests+Comments
+    # checksum fail   - dash
+    #- aptanastudio # error in formula, should be https://github.com/aptana/studio3/releases/download/v3.6.1/Aptana_Studio_3.6.1_Setup.dmg
+      # https://github.com/caskroom/homebrew-cask/pull/36986
+    #hash err - vitamin-r
+    #hash error - gitfinder # (trial) View local and remote branches, tags and submodules, execute various git operations ... from a feature-rich repository browser window.
+    #hash error  - neofinder # The Holy Grail of Media Asset Management
+    #bad hash  - unrarx
+    #error   - mocha-keyboard
+    #dl error  - wondershare-video-converter-ultimate
+    #dl error  - videomonkey
+    #hash error  - hazeover
     #  - ansible-dk # An omnibus-based toolkit for working on Ansible-based infrastructure tools.
     #       eval "$(ansible-dk shell-init bash)"
     #error  - vimediamanager
-# clion # A cross-platform IDE for C and C++
-#  - idisplay
+    #  - clion # A cross-platform IDE for C and C++
+    #  - idisplay
     #dl error  - sql-operations-studio
 
 # fonts:
@@ -642,16 +664,20 @@ macos_spelling_localdictionary_words:
   - Macsible
 
 firefox_extensions:
-  -  @testpilot-containers.xpi
+  - @testpilot-containers.xpi
   - ImageSaver@Merci.chao.xpi
   - category-tabs-for-google-keep@carlosjeurissen.com.xpi
   - cliget@zaidabdulla.com.xpi
-    #copyfish@a9t9.com.xpi
   - easyscreenshot@mozillaonline.com.xpi
   - extension@one-tab.com.xpi
   - firefox@choosyosx.com.xpi
   - gkeeppanel@alejandrobrizuela.com.ar.xpi
   - gtaskpanel@alejandrobrizuela.com.ar.xpi
+  - rescuetime_firefox@rescuetime.com.xpi
+  - support@lastpass.com.xpi
+  - treestyletab@piro.sakura.ne.jp.xpi
+  - wayback_machine@mozilla.org.xpi
+    #copyfish@a9t9.com.xpi
     #jid0-GXjLLfbCoAx0LcltEdFrEkQdQPI@jetpack.xpi
     #jid1-BYcQOfYfmBMd9A@jetpack.xpi
 #jid1-BoFifL9Vbdl2zQ@jetpack.xpi
@@ -659,13 +685,9 @@ firefox_extensions:
 #jid1-zUrvDCat3xoDSQ@jetpack.xpi
 #jsonovich@lackoftalent.org.xpi
 #newtaboverride@agenedia.com.xpi
-  - rescuetime_firefox@rescuetime.com.xpi
     #savedpasswordeditor@daniel.dawson.xpi
-  - support@lastpass.com.xpi
     #support@wildfire.ai.xpi
     #translator@zoli.bod.xpi
-  - treestyletab@piro.sakura.ne.jp.xpi
-  - wayback_machine@mozilla.org.xpi
     #{20068ab2-1901-4140-9f3c-81207d4dacc4}.xpi
     #{2e5ff8c8-32fe-46d0-9fc8-6b8986621f3c}.xpi
     #{46551EC9-40F0-4e47-8E18-8E5CF550CFB8}.xpi
