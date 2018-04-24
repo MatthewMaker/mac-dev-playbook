@@ -2,6 +2,13 @@
 configure_ssh: yes
 
 homebrew_installed_packages:
+  - atlassian-cli # Command-line interface clients for Atlassian products (bitbucket, etc)
+  - csvfix # Tool for manipulating CSV data
+  - xclip # Command-line clipboard utility that is designed to run on any system with an X11
+  - gandi.cli # Command-line interface to Gandi.net products using the public API
+  - bmon
+  - mon
+  - mongroup
   - loginitems
   - go
   - ffmpeg
@@ -117,7 +124,7 @@ homebrew_installed_packages:
   - vorbis-tools
   - unison
   - ntopng
-  - mutt
+  - mutt # Mongrel of mail user agents (part elm, pine, mush, mh, etc.)
   - muttils
   - aspell
   - assh
