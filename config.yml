@@ -2,6 +2,13 @@
 configure_ssh: yes
 
 homebrew_installed_packages:
+  - atlassian-cli # Command-line interface clients for Atlassian products (bitbucket, etc)
+  - csvfix # Tool for manipulating CSV data
+  - xclip # Command-line clipboard utility that is designed to run on any system with an X11
+  - gandi.cli # Command-line interface to Gandi.net products using the public API
+  - bmon
+  - mon
+  - mongroup
   - loginitems
   - go
   - ffmpeg
@@ -117,7 +124,7 @@ homebrew_installed_packages:
   - vorbis-tools
   - unison
   - ntopng
-  - mutt
+  - mutt # Mongrel of mail user agents (part elm, pine, mush, mh, etc.)
   - muttils
   - aspell
   - assh
@@ -488,6 +495,7 @@ homebrew_cask_apps:
   - xamarin-mac
   - xamarin-studio
   - smartgit # a Git client with support for GitHub Pull Requests+Comments
+  - therm # fork of iTerm
     # checksum fail   - dash
     #- aptanastudio # error in formula, should be https://github.com/aptana/studio3/releases/download/v3.6.1/Aptana_Studio_3.6.1_Setup.dmg
       # https://github.com/caskroom/homebrew-cask/pull/36986
@@ -724,6 +732,8 @@ npm_packages:
   - name: yarn
   - name: nativefier
   - name: opencv4nodejs
+  - name: zapier-platform-cli
+    #  - name: ngx-airtable
 
 pip_packages:
   - name: mkdocs
