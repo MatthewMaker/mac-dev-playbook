@@ -495,6 +495,7 @@ homebrew_cask_apps:
   - xamarin-mac
   - xamarin-studio
   - smartgit # a Git client with support for GitHub Pull Requests+Comments
+  - therm # fork of iTerm
     # checksum fail   - dash
     #- aptanastudio # error in formula, should be https://github.com/aptana/studio3/releases/download/v3.6.1/Aptana_Studio_3.6.1_Setup.dmg
       # https://github.com/caskroom/homebrew-cask/pull/36986
@@ -731,6 +732,8 @@ npm_packages:
   - name: yarn
   - name: nativefier
   - name: opencv4nodejs
+  - name: zapier-platform-cli
+    #  - name: ngx-airtable
 
 pip_packages:
   - name: mkdocs
