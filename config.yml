@@ -2,6 +2,9 @@
 configure_ssh: yes
 
 homebrew_installed_packages:
+  - fish # fish shell
+  - vbindiff # Visual Binary Diff
+  - doxygen
   - atlassian-cli # Command-line interface clients for Atlassian products (bitbucket, etc)
   - csvfix # Tool for manipulating CSV data
   - xclip # Command-line clipboard utility that is designed to run on any system with an X11
@@ -31,7 +34,7 @@ homebrew_installed_packages:
   - tree
   - sift
   - aha
-  - gs
+  - gs # Interpreter for PostScript and PDF
   - osxutils
   - mp4v2
   - pngcrush
@@ -57,7 +60,7 @@ homebrew_installed_packages:
   - multimarkdown
   - resty
   - mosh
-  - tmux
+  - tmux # terminal multiplexer - a better 'screen'
   - gs
   - fping
   - mackup
@@ -71,9 +74,9 @@ homebrew_installed_packages:
   - putty
   - ruby
   - freeciv
-  - geoip
+  - geoip # find where an IP address comes from
   - hh # shell history browser / searcher
-  - tig
+  - tig # curses git repo browser
   - the_silver_searcher
   - the_platinum_searcher
   - theora
@@ -142,7 +145,7 @@ homebrew_installed_packages:
   - screenresolution
   - pwgen
   - cless
-  - vimpager
+  - vimpager # use vim colorization rules for paging through any file - you may want to replace 'less' with this
   - fuzzy-find
   - cliclick
   - prettyping
@@ -168,17 +171,16 @@ homebrew_installed_packages:
   - bettercap
   - trafshow
   - foremost
-  - hh
   - calc
-  - htop
-  - links
-  - lynx
-  - ncdu
-  - lftp
-  - irssi
-  - ccrypt
+  - htop # best top replacement
+  - links # best text mode web browser
+  - lynx # second best text mode web browser
+  - ncdu # ncurses disk usage browser
+  - lftp # a nice commandline ftp
+  - irssi # commandline irc client
+  - ccrypt # strong file crypt tool
   - gpg
-  - speedtest_cli
+  - speedtest_cli # gives you network bandwidth measurement
   - rlwrap
   - colordiff
   - diffuse # Graphical tool for merging and comparing text files
