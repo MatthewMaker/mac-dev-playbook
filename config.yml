@@ -2,6 +2,8 @@
 configure_ssh: yes
 
 homebrew_installed_packages:
+  - z # Tracks most-used directories to make cd smarter
+  - axel # Light UNIX download accelerator
   - fish # fish shell
   - vbindiff # Visual Binary Diff
   - doxygen
@@ -50,7 +52,7 @@ homebrew_installed_packages:
   - swiftformat
   - pstoedit
   - gitversion
-  - git-crypt
+  - git-crypt # to support automatic encryption on pushing to git
   - git-flow
   - ripgrep
   - multitail # Tail multiple files in one terminal simultaneously
@@ -186,7 +188,7 @@ homebrew_installed_packages:
   - diffuse # Graphical tool for merging and comparing text files
   - watch
   - vnstat
-  - hub
+  - hub # Add GitHub support to git on the command-line
   - graphicsmagick
   - bash
   - bash-snippets
@@ -498,6 +500,8 @@ homebrew_cask_apps:
   - xamarin-studio
   - smartgit # a Git client with support for GitHub Pull Requests+Comments
   - therm # fork of iTerm
+  - webstorm
+  - elmedia-player
     # checksum fail   - dash
     #- aptanastudio # error in formula, should be https://github.com/aptana/studio3/releases/download/v3.6.1/Aptana_Studio_3.6.1_Setup.dmg
       # https://github.com/caskroom/homebrew-cask/pull/36986
