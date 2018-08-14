@@ -379,12 +379,12 @@ homebrew_cask_apps:
   - autobeat-player # All your music in one place
   - tag # a metadata editor for FLAC, Ogg Vorbis, Monkey's Audio and WavPack files
   - soundcloud-downloader
-  - vox
-  - vox-preferences-pane
+    #  - vox
+    #  - vox-preferences-pane
   - background-music
   - musicbrainz-picard
   - sonic-pi
-  - amazon-music
+    #  - amazon-music
   - marshallofsound-google-play-music-player
   - music-manager
   - musictube
