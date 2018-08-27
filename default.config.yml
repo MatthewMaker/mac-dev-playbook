@@ -22,7 +22,6 @@ homebrew_installed_packages:
   - loginitems # orig from https://github.com/OJFord/loginitems
   - autoconf
   - bash-completion
-  - chromedriver
   - doxygen
   - gettext
   - gifsicle
@@ -47,9 +46,9 @@ homebrew_installed_packages:
 
 homebrew_taps:
   - homebrew/core
-  - caskroom/cask
+    #  - caskroom/cask
   - MatthewMaker/core
-  - caskroom/fonts
+#  - caskroom/fonts
 
 homebrew_cask_appdir: /Applications
 homebrew_cask_apps:
@@ -60,6 +59,7 @@ homebrew_cask_apps:
     #  - google-chrome # now using danbohea.google-chrome
   - handbrake
   - licecap
+  - chromedriver
   - limechat
   - macvim
   - sequel-pro
