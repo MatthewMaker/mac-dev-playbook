@@ -1,3 +1,16 @@
+
+
+apps not installable from current systems:
+sonic-annotator
+
+Things not yet doing:
+create ssh keys
+register ssh keys with other machines (optionally)
+SourceTree config
+create and register SOurceTree keys with github and bitbucket
+associate file types:
+always open .xaml in Brackets.app
+
 https://github.com/fgimian/macbuild
 
 TODO:

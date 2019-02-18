@@ -354,7 +354,6 @@ homebrew_cask_apps:
   - vernier-graphical-analysis
   - pd
   - ttscoff-mmd-quicklook # Improved QuickLook generator for MultiMarkdown files
-  - lyn
   - izip
   - etcher
   - zipeg # free application for opening ZIP and RAR files on Mac and Windows.
@@ -395,6 +394,7 @@ homebrew_cask_apps:
   - sonic-visualiser
 
     #images/photos
+  - lyn
   - playmemories-home # Freeware which enables photos and videos to be easily managed and edited on Mac.
   - digikam
   - instasizer # art asset resizing
