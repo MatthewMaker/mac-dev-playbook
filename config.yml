@@ -261,7 +261,6 @@ homebrew_cask_apps:
   - screenflow
   - fantastical
   - scapple
-  - karabiner
   - scrivener
   - xmind
   - xquartz
@@ -350,7 +349,6 @@ homebrew_cask_apps:
   - pixelconduit
   - graphsketcher # A fast, simple graph drawing and data plotting app for OS X and iPad.
   - sketchup # friendly and forgiving 3D modeling software
-  - pd
     #  - sketchupviewer
     #  - vernier-graphical-analysis
   - ttscoff-mmd-quicklook # Improved QuickLook generator for MultiMarkdown files
@@ -373,6 +371,10 @@ homebrew_cask_apps:
   - topcat # Tool for OPerations on Catalogues And Tables - Does what you want with tables
   - speedcrunch # a high-precision scientific calculator featuring a fast, keyboard-driven user interface
   - wiring # an open-source programming framework for microcontrollers.
+  - pdftotext # might not be supported
+
+    # audio stuff
+  - pd
   - overdrive-media-console # https://www.overdrive.com/ ?
     #  - soundflower
   - autobeat-player # All your music in one place
@@ -519,10 +521,12 @@ homebrew_cask_apps:
     #  - clion # A cross-platform IDE for C and C++
     #  - idisplay
     #dl error  - sql-operations-studio
+    #
+  - karabiner
 
 # fonts:
   - font-profontx # programming and terminal font on MacOS.
-  - font-profont-windows-tweaked
+    #  - font-profont-windows-tweaked
   - font-inconsolata-dz
   - powerline-extra-symbols # Extra glyphs for your powerline separators
   - font-courier-prime-code
@@ -638,6 +642,7 @@ mas_installed_apps:
   - { id: 508368068, name: "Get Plain Text" }
   - { id: 457622435, name: "Yoink - Improved Drag and Drop" }
   - { id: 1099573200, name: "ApiGenerator Free" }
+  - { id: 414030210, name: "Limechat" }
     #  - { id: 1278508951, name: "Trello" }
     #  - { id: 633859558, name: "Texas Constitution and Statutes Codes" }
     #  - { id: 1039355034, name: "VIDEO Oops - Fragment Removal PRO" }
